@@ -89,5 +89,4 @@ define('SUBDOMAIN_INSTALL', true); // Set to false if using subdirectories
 define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE'));
 define('PATH_CURRENT_SITE', env('PATH_CURRENT_SITE') ?: '/');
 define('SITE_ID_CURRENT_SITE', env('SITE_ID_CURRENT_SITE') ?: 1);
-define('BLOG_ID_CURRENT_SITE', env('BLOG_ID_CURRENT_SITE') ?: 1);
-define( 'NOBLOGREDIRECT', '' );    
+define('BLOG_ID_CURRENT_SITE', env('BLOG_ID_CURRENT_SITE') ?: 1); 

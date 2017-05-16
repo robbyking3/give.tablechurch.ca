@@ -9,9 +9,12 @@ wordpress_sites:
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: robbyking3@gmail.com
     multisite:
-      enabled: true
+      enabled: false
+      subdomains: false
     ssl:
       enabled: false
       provider: self-signed
     cache:
       enabled: false
+    env:
+      domain_current_site: kaleo.dev
